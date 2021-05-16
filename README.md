@@ -5,5 +5,5 @@
 Bu proje robot kolunun pozisyon,hız,ivme verilerinin kontrolcü, master ve slave cihazları arasındaki CAN ile haberleşmesi için gerçekleştirilmiştir.
 MATLAB kısmında kinematik hesaplar yapılarak pozisyon bilgileri Master cihaza serial port üzerinden gönderilmektedir. Bu bilgiler Master cihazdan diğer bütün Slave cihazlara MCP2515 CAN Bus ile gönderilmektedir.
 Bu projede kinematik hesaplamalar için MATLAB Peter Corke Robotics Toolbox robot-9.10 yüklü olmalıdır. Fakat bu haberleşme robot kol haricindede kullanılabilir.
-Kinematik için yapılan hesaplamalar bütün MATLAB sürümleri ile uyumlu değildir eğer hata alırsanız floor() fonksiyonunu inceleyiniz.
+Kinematik için yapılan hesaplamalar bütün MATLAB sürümleri ile uyumlu değildir eğer hata alırsanız floor(),num2str() fonksiyonlarını inceleyiniz.
 Slave cihazların sayısı arttırabilir.
