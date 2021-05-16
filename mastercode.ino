@@ -32,12 +32,6 @@ void setup() {
   mcp2515.setNormalMode();
 }
 
-
-
-
-
-
-// the loop function runs over and over again forever
 void loop() {
   lcd.setCursor(0,0);
   lcd.print("Q1:");
